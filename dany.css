@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+@media (max-width: 560px) {
+body {
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    background: url(Aniversario\ 400x266.png) no-repeat fixed center;
+    background-size: cover;
+}
+
+body > p > a {
+    color: blueviolet;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+
+.envelope {
+    margin-top: 2rem;
+}
+
+.envelope > figure > img {
+    width: 30rem;
+    margin-left: 5rem;
+}
+
+}
